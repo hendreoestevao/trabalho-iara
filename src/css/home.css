@@ -1,0 +1,147 @@
+/* Home.css */
+
+.home-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(224, 95, 95, 0.1);
+  margin-top: 15px;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1.to-do {
+  max-width: 300px;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(224, 95, 95, 0.1);
+  margin-top: 15px;
+}
+
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #ff1a1a;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item span {
+  flex-grow: 1;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: #ff5252;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 200px; /* Definindo uma largura específica */
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+form button {
+  position: absolute;
+  left: 210px; /* Posicionando no canto esquerdo da tela */
+  top: auto; /* Definindo uma distância do topo */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 11px 12px; /* Ajustando o padding */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(17 24 39);
+  margin: 0;
+  padding: 0;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Adicionado para centralizar as colunas */
+}
+
+.category-column {
+  flex: 1 1 calc(20% - 10px);
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto;
+  min-height: 300px;
+  padding-bottom: 10px;
+}
+
+.todo-item {
+  padding: 10px;
+  border: 2px solid #000;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: move;
+}
+
